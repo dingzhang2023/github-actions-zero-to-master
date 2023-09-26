@@ -1,4 +1,4 @@
-# github-actions-zero-to-master
+#### First GH Actions
 
 ```yaml
 name: First Workflow
@@ -14,3 +14,7 @@ jobs: # This is a list of jobs
                   echo "Goodbye, world!"
                   echo "Second output!"
 ```
+
+#### GitHub Actions Triggers
+
+[Events that trigger workflows Document](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
