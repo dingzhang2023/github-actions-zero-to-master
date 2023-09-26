@@ -15,7 +15,7 @@ jobs:
             - name: Run tests
               run: npm test
     deploy:
-        # needs: test
+        needs: test # topology test first then deploy
         runs-on: ubuntu-latest
         steps:
             - name: Get code
